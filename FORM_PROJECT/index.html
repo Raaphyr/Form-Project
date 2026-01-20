@@ -6,5 +6,34 @@
     <title>Reserva de Mesa em um Restaurante</title>
     <link rel="stylesheet" href="CSS/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h3>Reserve sua Mesa mais rápido!</h3>
+      </div>
+      <div class="form-container">
+        <div class="form-header">
+          <p>Formulário de Reserva</p>
+        </div>
+        <div class="form-body">
+          <h1 class="form-title">Faça uma reserva facilmente!</h1>
+          <p>Complete o formulário abaixo para reservar sua mesa.</p>
+          <form>
+            <div class="box-input">
+            <label for="name">Nome Completo <span class="required-field">*</span></label>
+            <input 
+            type="text" 
+            id="name" 
+            name="name" 
+            class="block" 
+            placeholder="Seu nome completo!" 
+            minlength="3" 
+            maxlength="50" required 
+            />
+          </div>
+          <input type="submit" value="Enviar" />
+          </form>
+      </div>
+    </div>
+  </body>
 </html>

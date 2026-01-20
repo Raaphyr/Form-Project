@@ -1,38 +1,116 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Reserva de Mesa em um Restaurante</title>
-    <link rel="stylesheet" href="CSS/styles.css" />
+    <title>Reserva de Mesa</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <div class="container">
       <div class="header">
-        <h3>Reserve sua Mesa mais rápido!</h3>
+        <h3>Faça sua reserva e garanta sua mesa!</h3>
       </div>
+
       <div class="form-container">
         <div class="form-header">
-          <p>Formulário de Reserva</p>
+          <p>Formulário</p>
         </div>
+
         <div class="form-body">
-          <h1 class="form-title">Faça uma reserva facilmente!</h1>
-          <p>Complete o formulário abaixo para reservar sua mesa.</p>
+          <h1 class="form-title">Reserva de Mesa</h1>
+          <p>
+            Preencha os dados abaixo para reservar sua mesa em nosso restaurante
+          </p>
+
           <form>
             <div class="box-input">
-            <label for="name">Nome Completo <span class="required-field">*</span></label>
-            <input 
-            type="text" 
-            id="name" 
-            name="name" 
-            class="block" 
-            placeholder="Seu nome completo!" 
-            minlength="3" 
-            maxlength="50" required 
-            />
-          </div>
-          <input type="submit" value="Enviar" />
+              <label for="name">
+                Nome do cliente <span class="required-field">*</span>
+              </label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="block"
+                placeholder="Digite seu nome completo"
+                required
+              />
+            </div>
+
+            <div class="box-input">
+              <label for="people">
+                Número de pessoas <span class="required-field">*</span>
+              </label>
+              <input
+                type="number"
+                name="people"
+                id="people"
+                class="block"
+                placeholder="Ex: 2, 4, 6"
+                required
+              />
+            </div>
+
+            <div class="box-input">
+              <label for="date">
+                Data da reserva <span class="required-field">*</span>
+              </label>
+              <input type="date" name="date" id="date" class="block" required />
+            </div>
+
+            <div class="box-input">
+              <label for="time">
+                Horário <span class="required-field">*</span>
+              </label>
+              <input type="time" name="time" id="time" class="block" required />
+            </div>
+
+            <div class="box-input">
+              <p>Tipo de mesa <span class="required-field">*</span></p>
+              <input type="radio" id="indoor" name="table_type" />
+              <label for="indoor">Área interna</label>
+
+              <input type="radio" id="outdoor" name="table_type" />
+              <label for="outdoor">Área externa</label>
+            </div>
+
+            <div class="optional-box">
+              <p>Preferências</p>
+              <ul class="optional-list">
+                <li>
+                  <input type="checkbox" id="window" name="optional[]" />
+                  <label for="window">Mesa próxima à janela</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="quiet" name="optional[]" />
+                  <label for="quiet">Ambiente mais silencioso</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="birthday" name="optional[]" />
+                  <label for="birthday">Comemoração de aniversário</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="kids" name="optional[]" />
+                  <label for="kids">Espaço para crianças</label>
+                </li>
+              </ul>
+            </div>
+
+            <div class="box-input">
+              <label for="description">Observações</label>
+              <textarea
+                name="description"
+                id="description"
+                class="block"
+                placeholder="Ex: restrições alimentares, pedido especial, etc."
+              ></textarea>
+            </div>
+
+            <input type="submit" value="Reservar" class="btn-submit" />
           </form>
+        </div>
       </div>
     </div>
   </body>

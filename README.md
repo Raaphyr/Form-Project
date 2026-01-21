@@ -1,50 +1,30 @@
-# Form Project — Restaurant Reservation
+# Restaurant Reservation Form
 
-🇧🇷  
-Este é o **primeiro projeto** que estou desenvolvendo na área de **front-end**.  
-O projeto consiste em um **formulário de reserva de mesa para um restaurante**, criado com o objetivo de colocar em prática os conceitos de formulários em HTML estudados recentemente.
-
-🇺🇸  
-This is my **first front-end project**.  
-It consists of a **restaurant table reservation form**, built to practice HTML form concepts studied recently.
-
----
+Formulário de reserva de mesa para um restaurante, desenvolvido com foco em organização de dados, usabilidade e layout limpo.
 
 ## 📌 Sobre o projeto
 
-A ideia deste projeto é aplicar, na prática, os principais elementos e tipos de formulários disponíveis no **HTML**, utilizando uma estrutura organizada e semântica.
+Este projeto consiste em um **formulário completo de reserva de mesa**, permitindo que o usuário informe:
 
-O layout do formulário é inspirado no estilo de formulários amplamente utilizados, como o **Google Forms**, com um design simples, limpo e foco na experiência do usuário.
+- Nome do cliente
+- Número de pessoas
+- Data e horário da reserva
+- Tipo de mesa (interna ou externa)
+- Preferências adicionais
+- Observações personalizadas
 
-Este projeto faz parte do meu processo de aprendizado e será aprimorado conforme avanço nos estudos.
-
----
-
-## 🎯 Objetivo
-
-- Praticar a criação de formulários em HTML  
-- Utilizar diferentes tipos de inputs, labels e campos de formulário  
-- Aplicar estilização com CSS  
-- Organizar um projeto simples de forma clara  
-- Versionar o código utilizando Git e GitHub  
-
----
+O layout é inspirado em formulários modernos, como o Google Forms, priorizando clareza visual, hierarquia de informações e facilidade de preenchimento.
 
 ## 🚀 Tecnologias utilizadas
 
-- HTML5  
-- CSS3  
+- HTML5
+- CSS3
 
+## 🌐 Demonstração
 
----
-
-## 🛠️ Status do projeto
-
-🚧 Em desenvolvimento — projeto de estudo.
-
----
+🔗 GitHub Pages:  
+https://raaphyr.github.io/Form-Project/
 
 ## 👤 Autor
 
-Desenvolvido por **Raaphyr**  
-📚 Estudante de Front-end
+Desenvolvido por **Raaphyr**
